@@ -1,0 +1,61 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Analytics",
+          "slug": "dashboard.analytics"
+        }
+      ]
+    },
+    {
+      "name": "Sekolah",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "school",
+      "submenu": [
+        {
+          "url": "guru",
+          "name": "Guru",
+          "slug": "school.teacher.dashboard"
+        },
+        {
+          "url": "mapel",
+          "name": "Mata Pelajaran",
+          "slug": "school.course.dashboard"
+        },
+        {
+          "url": "spp",
+          "name": "SPP",
+          "slug": "school.payment.dashboard"
+        }
+      ]
+    },
+    {
+      "name": "Siswa",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "student",
+      "submenu": [
+        {
+          "url": "siswa/dashboard",
+          "name": "Dashboard",
+          "slug": "student.dashboard"
+        },
+        {
+          "url": "siswa/nilai",
+          "name": "Nilai",
+          "slug": "student.nilai"
+        },
+        {
+          "url": "siswa/kehadiran",
+          "name": "Kehadiran",
+          "slug": "student.attendance"
+        }
+      ]
+    }
+  ]
+}
